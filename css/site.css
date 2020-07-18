@@ -1,0 +1,45 @@
+body{
+    background-color: darkgray;
+}
+
+.nav-class {
+  background-color:whitesmoke;
+  display: flex;
+  height: 12vh;
+}
+
+.logo-class > a{
+    flex: 1;
+    display: flex;
+    
+}
+#logo{
+    object-fit: cover;
+    max-width: 15%;
+    max-height: 15%;
+    align-self: center;
+}
+
+hr {
+    border: 3px solid black; 
+}
+
+.nav-container{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+
+}
+
+li a{
+    font-style: italic;
+    color: #da627d;
+    font-weight: bold;
+    font-size: large;
+}
+
+.nav-container a:hover {
+    background-color: black;
+  }
