@@ -10,5 +10,5 @@
 
 ## How to open website from local computer/on your machine
 - Download the sourcecode folder from respositery
-- Go to Queens-web-project --> html folder
-- Open fighting.html(as a home page) in your choice of browser 
+- Go to Queens-web-project --> index.html
+- gothub page URL - https://sonaltarpe.github.io/queens-web-project/
