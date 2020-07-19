@@ -25,7 +25,7 @@
 .page4-content-right{
     flex: 1;
     display: flex;
-
+    justify-content: center;
     flex-direction: column;
     background-color:white;
     margin-top: 3%;  
@@ -71,6 +71,10 @@ a[href^="tel"]::before {
     /* For mobile phones: */
     .page4-container, .page4-img-left, .page4-content-right, .right-item{
       width:100%;
+    }
+
+    .page4-container{
+        flex-direction: column;
     }
   }
 

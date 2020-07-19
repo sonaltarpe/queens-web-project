@@ -25,6 +25,7 @@ hr {
     font-weight: bold;
     font-size: large;
     align-self: center;
+    text-decoration:none;
 }
 .selected{
     background-color:  #da627d;
@@ -40,6 +41,7 @@ hr {
     background-color:  #da627d;
     color: white;
 }
+
 
 
 
