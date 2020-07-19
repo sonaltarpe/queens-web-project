@@ -66,4 +66,20 @@ h1.page3Heading{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+@media only screen and (max-width: 768px){
+    /* For mobile phones: */
+    .page3-container, .page3-content-header, .page3-content, .page3-img-content-container, .img-content-box, .img-container{
+      width:100%;
+    }
+
+    .img-item{
+        height: 100px;
+        width: 100px;
+    }
+
+    .img-content-box{
+        width: 20%;
+    }
+  }
+
 

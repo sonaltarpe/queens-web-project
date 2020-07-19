@@ -71,4 +71,11 @@ h1.page1-content{
     margin-bottom: 0;
 }
 
+@media only screen and (max-width: 768px){
+    /* For mobile phones: */
+    .main-container, .img-container, .footer-container{
+      width:100%;
+    }
+  }
+
 
